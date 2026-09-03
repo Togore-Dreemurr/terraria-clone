@@ -11,3 +11,5 @@ for (let i = 0; i < canvas.height / 12; i++) {
     grid[i].push(0);
   }
 }
+
+console.log(grid);
