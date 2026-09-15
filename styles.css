@@ -21,3 +21,7 @@ canvas {
     height: 90vh;
     width: auto;
 }
+
+#test {
+    color: white;
+}

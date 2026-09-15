@@ -4,17 +4,9 @@
         <link href="styles.css" rel="stylesheet" />
     </head>
     <body>
-        <p id="temp"></p>
+        <p id="test"></p>
         <canvas id="gameBoard" width="200" height="150"></canvas>
-        <script src="perlin.js"></script>
+        <script src="noise-library/perlin.js"></script>
         <script src="terrain_gen.js"></script>
-        <script>
-            const ctx = document.getElementById("gameBoard").getContext("2d");
-            const img = new Image();
-            img.addEventListener("load", () => {
-                ctx.drawImage(img, 0, 0, 12, 12);
-            });
-            img.src = "grass.png";
-        </script>
     </body>
 </html>
